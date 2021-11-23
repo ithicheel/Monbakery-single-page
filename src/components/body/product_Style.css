@@ -1,0 +1,43 @@
+@import url(../../root.css);
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  max-width: 1400px;
+  transition: all 0.5s ease;
+}
+.product_item {
+  box-shadow: 1px 1px 2px 2px rgb(231, 231, 231);
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  margin: 1rem;
+  transition: 0.5s ease all;
+}
+.product_item_img {
+  width: 100%;
+  height: 270px;
+}
+.product_item_img img {
+  width: 100%;
+  height: 100%;
+}
+.product_item_name button {
+  width: 100%;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem;
+  margin-top: 0.8rem;
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+
+.product_item_name button:hover {
+  background: #fff;
+  color: var(--primary-color);
+}
+.product_item_name {
+  padding: 1rem;
+}
