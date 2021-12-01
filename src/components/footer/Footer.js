@@ -69,9 +69,9 @@ function Footer() {
                             </p>
                         </li>
                         <li>
-                            <div>
-                                <input type="text" />
-                                <input type="submit" />
+                            <div class="inputbox">
+                                <input class="form_c" type="email" placeholder="И-мэйл" required="" name="EMAIL"/>
+                                <button class="btn" type="submit">ИЛГЭЭХ</button>
                             </div>
                         </li>
                     </ul>
@@ -126,7 +126,7 @@ function Footer() {
             </div>
             <div  className="footer_bottom">
                 <p>
-                    &copy 2021 Монбейкери бүх эрх хуулиар хамгаалагдсан
+                © 2021 Монбейкери бүх эрх хуулиар хамгаалагдсан
                 </p>
                 <div>
                     <i>
