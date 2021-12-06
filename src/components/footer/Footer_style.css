@@ -67,7 +67,7 @@ input{
   font-size: 13px;
 }
 
-.btn{
+.footer .btn{
   position: absolute;
   display: inline-block;
   padding: 5px 13px;
@@ -75,7 +75,7 @@ input{
   white-space: nowrap;
   vertical-align: middle;
 
-  background-color: #bc8357;
+  background-color: var(--primary-color);
   border:none;
   
   cursor: pointer;
@@ -85,9 +85,10 @@ input{
   text-transform: uppercase;
   font-size: 12px;
   font-weight: normal;
+  transition: all .5s ease;
 }
 
-.btn:hover{
+.footer .btn:hover{
   background-color: white;
   color: rgb(57, 57, 80);
 }
