@@ -4,6 +4,7 @@ import Navbar from "./components/header/navbar/Navbar";
 import Home_contact from "./components/home_contact/Home_contact";
 import Showcase from "./components/showcase/Showcase";
 import Sale from "./components/sale/sale";
+import Location from "./components/location/location";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       <Showcase />
       <Body />
       <Sale />
+      <Location />
       <Home_contact />
+     
       <Footer />
     </div>
   );
