@@ -1,6 +1,9 @@
 .footer {
   background: rgb(57, 57, 80);
   color: rgb(216, 216, 216);
+
+  margin: auto;
+  max-width: 1500px;
 }
 
 .footer_content {

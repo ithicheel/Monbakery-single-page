@@ -9,6 +9,7 @@
   top: 86px;
   border-bottom: 2px solid gainsboro;
   transition: all 1s ease;
+  z-index: 100;
 }
 
 .menus_btn {
