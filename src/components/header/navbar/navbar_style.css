@@ -10,13 +10,20 @@
   align-items: center;
   background: #fff;
   margin: auto;
+<<<<<<< HEAD
+  max-width: 1500px;
+=======
   max-width: 100%;
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
   position: sticky;
   top: 0;
   border-bottom: 2px solid gainsboro;
   z-index: 100;
+<<<<<<< HEAD
+=======
   
 
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
 }
 .navbar_logo img {
   width: 15rem;
@@ -36,7 +43,10 @@
   height: 2.5rem;
   margin-right: 1rem;
   transition: 0.5s ease all;
+<<<<<<< HEAD
+=======
   cursor: pointer;
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
 }
 
 .navbar_login_item h3 {
@@ -51,6 +61,8 @@
   color: #fff;
   background: var(--primary-color);
 }
+<<<<<<< HEAD
+=======
 
 
 .formLogin {
@@ -244,3 +256,4 @@ a.discrete:hover {
 .closebtn .loginBtn:active {
     transform:  scale(.99);
   }
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e

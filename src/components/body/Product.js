@@ -8,91 +8,163 @@ let data1 = [
         title:"Герман талх",
         price: 2000,
         img_url: require("../../img/bread/bread_1.jpg"),
+<<<<<<< HEAD
+        sell_is: true,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Сүүтэй талх",
         price: 2500,
         img_url: require("../../img/bread/bread_2.jpg"),
+<<<<<<< HEAD
+        sell_is: false,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Бегат",
         price: 4200,
         img_url: require("../../img/bread/bread_3.jpg"),
+<<<<<<< HEAD
+        sell_is: false,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Бургер талх",
         price: 3200,
         img_url: require("../../img/bread/bread_4.jpg"),
+<<<<<<< HEAD
+        sell_is: true,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Талх",
         price: 2000,
         img_url: require("../../img/bread/bread_5.jpg"),
+<<<<<<< HEAD
+        sell_is: true,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Герман талх",
         price: 2000,
         img_url: require("../../img/bread/bread_1.jpg"),
+<<<<<<< HEAD
+        sell_is: false,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Сүүтэй талх",
         price: 2500,
         img_url: require("../../img/bread/bread_2.jpg"),
+<<<<<<< HEAD
+        sell_is: true,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Бегат",
         price: 4200,
         img_url: require("../../img/bread/bread_3.jpg"),
+<<<<<<< HEAD
+        sell_is: true,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Бургер талх",
         price: 3200,
         img_url: require("../../img/bread/bread_4.jpg"),
+<<<<<<< HEAD
+        sell_is: true,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Талх",
         price: 2000,
         img_url: require("../../img/bread/bread_5.jpg"),
+<<<<<<< HEAD
+        sell_is: false,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Герман талх",
         price: 2000,
         img_url: require("../../img/bread/bread_1.jpg"),
+<<<<<<< HEAD
+        sell_is: false,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Сүүтэй талх",
         price: 2500,
         img_url: require("../../img/bread/bread_2.jpg"),
+<<<<<<< HEAD
+        sell_is: false,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Бегат",
         price: 4200,
         img_url: require("../../img/bread/bread_3.jpg"),
+<<<<<<< HEAD
+        sell_is: true,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Бургер талх",
         price: 3200,
         img_url: require("../../img/bread/bread_4.jpg"),
+<<<<<<< HEAD
+        sell_is: true,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Талх",
         price: 2000,
         img_url: require("../../img/bread/bread_5.jpg"),
+<<<<<<< HEAD
+        sell_is: true,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Герман талх",
         price: 2000,
         img_url: require("../../img/bread/bread_1.jpg"),
+<<<<<<< HEAD
+        sell_is: false,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Сүүтэй талх",
         price: 2500,
         img_url: require("../../img/bread/bread_2.jpg"),
+<<<<<<< HEAD
+        sell_is: false,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
     {
         title:"Бегат",
         price: 4200,
         img_url: require("../../img/bread/bread_3.jpg"),
+<<<<<<< HEAD
+        sell_is: true,
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     },
 ]
 
@@ -212,8 +284,11 @@ function Product(props) {
     const [dialog_box, setDialog_box] = useState(false);
     const [product_data , setProduct_data] = useState("");
     const dialog_data = null;
+<<<<<<< HEAD
+=======
 
     
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     let datas;
     if(props.name == "Бялуу"){
         datas = data2;

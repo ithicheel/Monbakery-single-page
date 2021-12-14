@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+import React from 'react';
+import './showcase_style.css';
+const datas = [
+    {
+        title: "Бяслагтай талх /том/",
+        img_url: require("../../img/talh.png"),
+    },
+    {
+        title: "Шоколадтай Бялуу /том/",
+        img_url: require("../../img/cake/cake_2.png"),
+    },
+    {
+        title: "Хар талх /дунд/",
+        img_url: require("../../img/bread/bread_2.jpg"),
+=======
 import React, { useState } from "react";
 import './showcase_style.css';
 import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
@@ -18,10 +34,39 @@ import styled from 'styled-components'
     {
         title: "Багц талх /дунд/",
         image: 'https://cdn.discordapp.com/attachments/725396765196550145/919628292561186886/product-slider.png',
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     }
 ]
 
 
+<<<<<<< HEAD
+function Showcase() {
+    let start = 0;
+    let img;
+    let name;
+    function change_showcase(){
+        if(start <= 2){
+            img = datas[start].img_url.default;
+            name = datas[start].title;
+            start++;
+        }else {
+            start = 0;
+        }
+        console.log(start)
+    }
+    setInterval(change_showcase(), 3000)
+    return (
+        <div className="showcase">
+            <div className="text">
+                <h3>Онцгойлох <br /> Бүтээгдэхүүн</h3>
+                <p>{name}</p>
+                <button className="showcase_btn">Захиалах</button>
+            </div>
+            <div className="images">
+                <img src={img} />
+            </div>
+        </div>
+=======
 const Showcase = ({slides }) => {
 const [current, setCurrent] = useState(0)
 const length = slides.length;
@@ -84,6 +129,7 @@ if(!Array.isArray(slides) || slides.length <= 0){
            
        })}
        </section>
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
         
     )
 }

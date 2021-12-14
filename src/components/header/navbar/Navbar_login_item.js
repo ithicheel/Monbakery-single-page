@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+import React from 'react'
+import "./navbar_style.css"
+import { FaUser ,FaShoppingBag } from "react-icons/fa"
+
+function Navbar_login_item(props) {
+    return (
+        <div className="navbar_login_item">
+            <h3>{props.name}</h3>
+            <i>{props.icon == "user" ? <FaUser /> : <FaShoppingBag /> }</i>
+        </div>
+=======
 import React, {useState} from 'react'
 import "./navbar_style.css"
 import { FaUser ,FaShoppingBag } from "react-icons/fa"
@@ -45,6 +57,7 @@ function Navbar_login_item(props, onClose) {
         </Modal>
         
         </>
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
     )
 }
 

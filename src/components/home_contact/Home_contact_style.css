@@ -2,7 +2,11 @@
 .home_contact {
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
+  /* margin-top: 5rem; */
+=======
  
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
   margin-bottom: 5rem;
   padding-top: 4rem;
   border-top: 1px solid var(--primary-color);
