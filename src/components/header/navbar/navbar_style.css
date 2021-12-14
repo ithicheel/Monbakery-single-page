@@ -205,7 +205,7 @@ a.discrete:hover {
   margin:  auto auto; 
   background:  #ffffff; 
   border-radius:  4px; 
-  box-shadow:  0px 2px 6px -1px rgba(0,0,0,.12);
+  /* box-shadow:  0px 2px 6px -1px rgba(0,0,0,.12); */
 }
 .left {
   width:  220px; 
@@ -225,12 +225,15 @@ a.discrete:hover {
   width: auto;
   border: none;
   margin-left: auto;
-  margin-bottom: 10px;
+ 
   border-radius: 24px;
   padding: 5px 8px;
 
   cursor: pointer;
   transition: all .3s ease;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .closebtn:hover {
