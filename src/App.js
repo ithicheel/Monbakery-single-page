@@ -13,7 +13,7 @@ function App() {
       <Showcase />
       <Body />
       <Sale />
-      <Location />
+      {/* <Location /> */}
       <Home_contact />
      
       <Footer />

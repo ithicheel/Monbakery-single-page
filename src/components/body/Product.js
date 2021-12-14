@@ -8,91 +8,109 @@ let data1 = [
         title:"Герман талх",
         price: 2000,
         img_url: require("../../img/bread/bread_1.jpg"),
+        sell_is: true,
     },
     {
         title:"Сүүтэй талх",
         price: 2500,
         img_url: require("../../img/bread/bread_2.jpg"),
+        sell_is: false,
     },
     {
         title:"Бегат",
         price: 4200,
         img_url: require("../../img/bread/bread_3.jpg"),
+        sell_is: false,
     },
     {
         title:"Бургер талх",
         price: 3200,
         img_url: require("../../img/bread/bread_4.jpg"),
+        sell_is: true,
     },
     {
         title:"Талх",
         price: 2000,
         img_url: require("../../img/bread/bread_5.jpg"),
+        sell_is: true,
     },
     {
         title:"Герман талх",
         price: 2000,
         img_url: require("../../img/bread/bread_1.jpg"),
+        sell_is: false,
     },
     {
         title:"Сүүтэй талх",
         price: 2500,
         img_url: require("../../img/bread/bread_2.jpg"),
+        sell_is: true,
     },
     {
         title:"Бегат",
         price: 4200,
         img_url: require("../../img/bread/bread_3.jpg"),
+        sell_is: true,
     },
     {
         title:"Бургер талх",
         price: 3200,
         img_url: require("../../img/bread/bread_4.jpg"),
+        sell_is: true,
     },
     {
         title:"Талх",
         price: 2000,
         img_url: require("../../img/bread/bread_5.jpg"),
+        sell_is: false,
     },
     {
         title:"Герман талх",
         price: 2000,
         img_url: require("../../img/bread/bread_1.jpg"),
+        sell_is: false,
     },
     {
         title:"Сүүтэй талх",
         price: 2500,
         img_url: require("../../img/bread/bread_2.jpg"),
+        sell_is: false,
     },
     {
         title:"Бегат",
         price: 4200,
         img_url: require("../../img/bread/bread_3.jpg"),
+        sell_is: true,
     },
     {
         title:"Бургер талх",
         price: 3200,
         img_url: require("../../img/bread/bread_4.jpg"),
+        sell_is: true,
     },
     {
         title:"Талх",
         price: 2000,
         img_url: require("../../img/bread/bread_5.jpg"),
+        sell_is: true,
     },
     {
         title:"Герман талх",
         price: 2000,
         img_url: require("../../img/bread/bread_1.jpg"),
+        sell_is: false,
     },
     {
         title:"Сүүтэй талх",
         price: 2500,
         img_url: require("../../img/bread/bread_2.jpg"),
+        sell_is: false,
     },
     {
         title:"Бегат",
         price: 4200,
         img_url: require("../../img/bread/bread_3.jpg"),
+        sell_is: true,
     },
 ]
 
@@ -212,8 +230,6 @@ function Product(props) {
     const [dialog_box, setDialog_box] = useState(false);
     const [product_data , setProduct_data] = useState("");
     const dialog_data = null;
-
-    
     let datas;
     if(props.name == "Бялуу"){
         datas = data2;
