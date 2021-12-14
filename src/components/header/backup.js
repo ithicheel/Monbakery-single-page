@@ -38,7 +38,7 @@ function Navbar_login_item(props) {
             >
            
             <h2>modaaal ouwow</h2>
-            <p>test</p> 
+            <p>test 11</p> 
             <div>
                 <button onClick={() => setModalIsOpen(false)}>aaaa</button>
             </div>
