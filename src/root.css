@@ -2,3 +2,11 @@
   --primary-color: rgb(102, 64, 64);
   --gray: #fff;
 }
+<<<<<<< HEAD
+=======
+
+::selection {
+  background-color: #764c24;
+  color: #fff;
+}
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e

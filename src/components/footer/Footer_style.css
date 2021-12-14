@@ -1,13 +1,26 @@
 .footer {
+<<<<<<< HEAD
   background: rgb(57, 57, 80);
   color: rgb(216, 216, 216);
 
   margin: auto;
   max-width: 1500px;
+=======
+  background: #393950;
+  color: rgb(216, 216, 216);
+
+  margin: auto;
+  max-width: 100%;
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
 }
 
 .footer_content {
   display: flex;
+<<<<<<< HEAD
+=======
+  background: #393950;
+  color: rgb(216, 216, 216);
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
   justify-content: center;
   padding-top: 2rem;
   padding-bottom: 1rem;

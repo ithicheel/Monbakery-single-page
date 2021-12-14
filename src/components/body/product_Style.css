@@ -34,7 +34,10 @@
   right: 0;
   width: 0;
   height: 0;
+<<<<<<< HEAD
   /* border-top-right-radius: 10px; */
+=======
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
   border-left: 100px solid transparent;
   border-bottom: 100px solid transparent;
   border-right: 100px solid var(--primary-color);

@@ -21,8 +21,13 @@ h1{
 .col-lg-12{
     padding: 0 10px;
     width: 100%;
+<<<<<<< HEAD
     border-style: solid;
     border-width: 1px;
+=======
+    /* border-style: solid;
+    border-width: 1px; */
+>>>>>>> f8b98112a7e40243cc05c00b25dbc6734bab573e
 }
 iframe{
     border:0; 
