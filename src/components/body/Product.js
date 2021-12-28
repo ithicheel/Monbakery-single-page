@@ -3,208 +3,182 @@ import Product_dialog_box from '../dialog/Product_dialog_box'
 import Product_item from './Product_item'
 
 
-let data1 = [
+let data3 = [
     {
         title:"Герман талх",
         price: 2000,
         img_url: require("../../img/bread/bread_1.jpg"),
     },
     {
-        title:"Сүүтэй талх",
+        title:"Багет талх сүүтэй",
         price: 2500,
         img_url: require("../../img/bread/bread_2.jpg"),
     },
     {
-        title:"Бегат",
+        title:"Үзэм хушгатай талх",
         price: 4200,
         img_url: require("../../img/bread/bread_3.jpg"),
     },
     {
-        title:"Бургер талх",
+        title:"Залгаа бөмбөлөг",
         price: 3200,
         img_url: require("../../img/bread/bread_4.jpg"),
     },
     {
-        title:"Талх",
+        title:"Зөөлөн хар талх",
         price: 2000,
         img_url: require("../../img/bread/bread_5.jpg"),
     },
     {
-        title:"Герман талх",
+        title:"Сармистай сухарь",
         price: 2000,
-        img_url: require("../../img/bread/bread_1.jpg"),
+        img_url: require("../../img/bread/bread_6.jpg"),
     },
     {
-        title:"Сүүтэй талх",
-        price: 2500,
-        img_url: require("../../img/bread/bread_2.jpg"),
-    },
-    {
-        title:"Бегат",
-        price: 4200,
-        img_url: require("../../img/bread/bread_3.jpg"),
-    },
-    {
-        title:"Бургер талх",
-        price: 3200,
-        img_url: require("../../img/bread/bread_4.jpg"),
-    },
-    {
-        title:"Талх",
+        title:"Бургер талх        ",
         price: 2000,
-        img_url: require("../../img/bread/bread_5.jpg"),
+        img_url: require("../../img/bread/bread_7.jpg"),
     },
     {
-        title:"Герман талх",
+        title:"Kraft corn сэндвич талх        ",
         price: 2000,
-        img_url: require("../../img/bread/bread_1.jpg"),
+        img_url: require("../../img/bread/bread_8.jpg"),
     },
-    {
-        title:"Сүүтэй талх",
-        price: 2500,
-        img_url: require("../../img/bread/bread_2.jpg"),
-    },
-    {
-        title:"Бегат",
-        price: 4200,
-        img_url: require("../../img/bread/bread_3.jpg"),
-    },
-    {
-        title:"Бургер талх",
-        price: 3200,
-        img_url: require("../../img/bread/bread_4.jpg"),
-    },
-    {
-        title:"Талх",
-        price: 2000,
-        img_url: require("../../img/bread/bread_5.jpg"),
-    },
-    {
-        title:"Герман талх",
-        price: 2000,
-        img_url: require("../../img/bread/bread_1.jpg"),
-    },
-    {
-        title:"Сүүтэй талх",
-        price: 2500,
-        img_url: require("../../img/bread/bread_2.jpg"),
-    },
-    {
-        title:"Бегат",
-        price: 4200,
-        img_url: require("../../img/bread/bread_3.jpg"),
-    },
+    
+   
 ]
 
 
 let data2 = [
     {
-        title:"Зөөлөн бялуу",
+        title:"Шоколадтай бялуу        ",
         price: 2000,
         img_url: require("../../img/cake/cake_1.jpg"),
     },
     {
-        title:"Бялуу",
+        title:"Муссе цуглуулга        ",
         price: 2500,
-        img_url: require("../../img/cake/cake_2.png"),
+        img_url: require("../../img/cake/cake_2.jpg"),
     },
     {
-        title:"Бегат",
+        title:"Жүржтэй муссе        ",
         price: 4200,
         img_url:require("../../img/cake/cake_3.jpg"),
     },
     {
-        title:"Бургер талх",
+        title:"Чийз бялуу        ",
         price: 3200,
         img_url:require("../../img/cake/cake_4.png"),
     },
     {
-        title:"Талх",
+        title:"Алмондтай чийз бялуу        ",
         price: 2000,
         img_url:require("../../img/cake/cake_5.png"),
     },
     {
-        title:"Бялуу",
+        title:"Давхраат бялуу        ",
         price: 2500,
         img_url:require("../../img/cake/cake_6.jpg"),
     },
     {
-        title:"Бегат",
-        price: 4200,
+        title:"Тирамису ",
+        price: 2500,
         img_url:require("../../img/cake/cake_7.jpg"),
     },
     {
-        title:"Бургер талх",
-        price: 3200,
+        title:"Сонгодог бялуу        ",
+        price: 2500,
         img_url:require("../../img/cake/cake_8.jpg"),
     },
+
+]
+
+let data1 = [
     {
-        title:"Талх",
-        price: 2000,
-        img_url:require("../../img/cake/cake_9.jpg"),
-    },
-    {
-        title:"Зөөлөн бялуу",
-        price: 2000,
-        img_url: require("../../img/cake/cake_1.jpg"),
-    },
-    {
-        title:"Бялуу",
-        price: 2500,
-        img_url: require("../../img/cake/cake_2.png"),
-    },
-    {
-        title:"Бегат",
+        title:"Донат",
         price: 4200,
-        img_url:require("../../img/cake/cake_3.jpg"),
+        img_url:require("../../img/bakery/bakery1.jpg"),
     },
     {
-        title:"Бургер талх",
+        title:"Эрдэнэшиш ",
         price: 3200,
-        img_url:require("../../img/cake/cake_4.png"),
+        img_url:require("../../img/bakery/bakery2.jpg"),
     },
     {
-        title:"Талх",
+        title:"Онцгой жимст",
         price: 2000,
-        img_url:require("../../img/cake/cake_5.png"),
+        img_url:require("../../img/bakery/bakery3.jpg"),
     },
     {
-        title:"Бялуу",
-        price: 2500,
-        img_url:require("../../img/cake/cake_6.jpg"),
-    },
-    {
-        title:"Бегат",
-        price: 4200,
-        img_url:require("../../img/cake/cake_7.jpg"),
-    },
-    {
-        title:"Бургер талх",
-        price: 3200,
-        img_url:require("../../img/cake/cake_8.jpg"),
-    },
-    {
-        title:"Талх",
+        title:"Үзэмт кекс",
         price: 2000,
-        img_url:require("../../img/cake/cake_9.jpg"),
+        img_url:require("../../img/bakery/bakery4.jpeg"),
+    },
+    {
+        title:"Крем чийзтэй давхраат        ",
+        price: 2000,
+        img_url:require("../../img/bakery/bakery5.jpg"),
+    },
+    {
+        title:"Рулет /хээтэй/   ",
+        price: 2000,
+        img_url:require("../../img/bakery/bakery6.jpg"),
+    },
+    {
+        title:"Шанзтай давхраат        ",
+        price: 2000,
+        img_url:require("../../img/bakery/bakery7.jpg"),
+    },
+    {
+        title:"Хас давхраат        ",
+        price: 2000,
+        img_url:require("../../img/bakery/bakery8.jpg"),
     },
 ]
 
-let data3 = [
+let data4 = [
     {
-        title:"Бегат",
+        title:"Кокостой жигнэмэг        ",
         price: 4200,
-        img_url:require("../../img/cake/cake_7.jpg"),
+        img_url:require("../../img/dessert/des1.jpg"),
     },
     {
-        title:"Бургер талх",
-        price: 3200,
-        img_url:require("../../img/cake/cake_8.jpg"),
+        title:"Хясаан  жигнэмэг        ",
+        price: 4200,
+        img_url:require("../../img/dessert/des2.jpg"),
     },
     {
-        title:"Талх",
-        price: 2000,
-        img_url:require("../../img/cake/cake_9.jpg"),
+        title:"Боргоцойн  жигнэмэг        ",
+        price: 4200,
+        img_url:require("../../img/dessert/des3.jpg"),
+    },
+    {
+        title:"Загасан   жигнэмэг        ",
+        price: 4200,
+        img_url:require("../../img/dessert/des4.jpg"),
+    },
+]
+
+let data5 = [
+    {
+        title:"Milk       ",
+        price: 4200,
+        img_url:require("../../img/beverage/bev1.jpg"),
+    },
+    {
+        title:"Cafe Latte        ",
+        price: 4200,
+        img_url:require("../../img/beverage/bev2.jpg"),
+    },
+    {
+        title:"Americano       ",
+        price: 4200,
+        img_url:require("../../img/beverage/bev3.jpg"),
+    },
+    {
+        title:"Milk tea",
+        price: 4200,
+        img_url:require("../../img/beverage/bev1.jpg"),
     },
 ]
 
@@ -219,8 +193,12 @@ function Product(props) {
         datas = data2;
     }else if(props.name == "Талх"){
         datas = data3;
-    }else {
+    }else if(props.name == "Бакери"){
         datas = data1;
+    }else if(props.name == "Амттан"){
+        datas = data4;
+    }else {
+        datas = data5;
     }
     function change_dialog_box(e, name){
         setProduct_data(datas.filter(e => e.title.includes(name)))

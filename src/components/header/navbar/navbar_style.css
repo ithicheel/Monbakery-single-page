@@ -4,12 +4,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 991px){
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: block;
+  }
+}
+.navbar {
   background: #fff;
-  margin: auto;
   max-width: 100%;
   position: sticky;
   top: 0;
@@ -17,6 +19,14 @@
   z-index: 100;
   
 
+}
+
+.nav{
+  margin-right: 2%;
+  margin-left: 5%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .navbar_logo img {
   width: 15rem;

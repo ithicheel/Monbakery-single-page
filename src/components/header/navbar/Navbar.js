@@ -4,10 +4,14 @@ import './navbar_style.css'
 
 const Navbar = ()=> {
     return (
+      
         <div className="navbar">
+            <div className="nav">
             <Navbar_logo />
             <Navbar_login />
+            </div>
         </div>
+       
     )
 }
 
