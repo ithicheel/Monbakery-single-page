@@ -160,7 +160,7 @@
   display: inline-block;
 } */
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width:  414px){
   .showc{
     max-width: 380px;
     /* overflow: hidden; */

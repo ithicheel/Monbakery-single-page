@@ -117,7 +117,7 @@ input{
 }
 
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width:  414px){
   .footer_content{
     display: grid;
     padding-top: 15px;
