@@ -107,6 +107,7 @@
 
   width: 35rem;
   height: 100%;
+  margin-right: 20px;
 }
 .btn-sh {
   border-radius: 50%;
@@ -158,3 +159,41 @@
   border-radius: 50%;
   display: inline-block;
 } */
+
+@media only screen and (max-width: 380px){
+  .showc{
+    max-width: 380px;
+    /* overflow: hidden; */
+    flex-direction: column;
+    padding: 0;
+    
+
+    
+  }
+  .showc img {
+    width: 90%;
+    height: 50%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .shDesc{
+    padding: 0;
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .shDesc h1{
+    text-align: center;
+  }
+  .showcase_btn{
+    width: 50%;
+  }
+  .bttn{
+    display: none;
+  }
+}

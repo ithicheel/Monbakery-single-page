@@ -9,7 +9,7 @@ import styled from 'styled-components'
  export const ShowcaseDatas = [
     {
         title: "Бяслагтай талх",
-        image: 'https://cdn.discordapp.com/attachments/725396765196550145/919585009487187998/talh.png',
+        image: 'https://cdn.discordapp.com/attachments/725396765196550145/925699335050649630/talh.png',
     },
     {
         title: "Орео чийз бялуу",
@@ -54,11 +54,18 @@ if(!Array.isArray(slides) || slides.length <= 0){
 
     return (
        <section className='slider'>
+           <div className="bttn">
            <ChevronLeftRoundedIcon className='btn-sh left-arrow' onClick={prevSlide} sx={{ fontSize: 50 }}/>
            <ChevronRightRoundedIcon className='btn-sh right-arrow' onClick={nextSlide} sx={{ fontSize: 50 }}/>
+           </div>
        {ShowcaseDatas.map((slide, index) => {
            return(
                <div className="showc " > 
+
+                    <div className={index === current ? 'slide active ' : 'slide'} key={index}>
+                            {index === current && (<img src ={slide.image} alt='showc'/>)}
+                    </div>
+
                     <div className="shDesc ">
                         
                         <div className={index === current ? 'slide active ' : 'slide' } key={index}>
@@ -75,9 +82,7 @@ if(!Array.isArray(slides) || slides.length <= 0){
 
                     </div>
 
-                    <div className={index === current ? 'slide active ' : 'slide'} key={index}>
-                    {index === current && (<img src ={slide.image} alt='showc'/>)}
-                    </div>
+                    
                     
                </div>
            ) 

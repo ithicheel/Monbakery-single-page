@@ -116,3 +116,25 @@ input{
   margin-right: 1rem;
 }
 
+
+@media only screen and (max-width: 380px){
+  .footer_content{
+    display: grid;
+    padding-top: 15px;
+    padding-bottom: 0;
+    
+  }
+  .footer_content_item{
+    width: 90%;
+    margin: 0 1rem;
+    margin-bottom: 20px;
+  }
+  .footer_bottom{
+    display: grid;
+    margin: 0;
+    text-align: center;
+  }
+  .footer_bottom p{
+    margin-bottom: 10px;
+  }
+}

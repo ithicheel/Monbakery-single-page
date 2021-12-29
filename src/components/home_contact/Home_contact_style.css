@@ -31,3 +31,20 @@
   color: #fff;
   background: var(--primary-color);
 }
+
+@media only screen and (max-width: 380px){
+  .home_contact_item{
+    width: 100px;
+  
+    text-align: center;
+    margin: 0 5px;
+  }
+  .home_contact_item p{
+    display: none;
+  }
+.modal{
+  width: 300px;
+
+}
+
+}

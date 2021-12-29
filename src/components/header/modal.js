@@ -13,7 +13,10 @@ const MODAL_STYLES = {
   color: '#000',
  
   zIndex: 1000
+
+ 
 }
+
 
 const OVERLAY_STYLES = {
   position: 'fixed',
