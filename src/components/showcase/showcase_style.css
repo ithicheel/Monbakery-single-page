@@ -160,7 +160,8 @@
   display: inline-block;
 } */
 
-@media only screen and (max-width:  414px){
+@media only screen and (-webkit-min-device-pixel-ratio: 3.5) {
+
   .showc{
     max-width: 380px;
     /* overflow: hidden; */

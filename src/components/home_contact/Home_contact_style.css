@@ -32,7 +32,7 @@
   background: var(--primary-color);
 }
 
-@media only screen and (max-width:  414px){
+@media only screen and (-webkit-min-device-pixel-ratio: 3.5) {
   .home_contact_item{
     width: 100px;
   
