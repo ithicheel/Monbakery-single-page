@@ -117,7 +117,7 @@ input{
 }
 
 
-@media only screen and (-webkit-min-device-pixel-ratio: 3.5) {
+@media only screen and (max-width: 414px){
 
   .footer_content{
     display: grid;

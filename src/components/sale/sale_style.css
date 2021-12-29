@@ -233,7 +233,7 @@ div.content-box {
 
 
 
-@media only screen and (-webkit-min-device-pixel-ratio: 3.5) {
+@media only screen and (max-width: 414px){
 
     div.content-box{
         width: 100%;

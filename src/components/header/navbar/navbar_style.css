@@ -249,14 +249,13 @@ a.discrete:hover {
 
 
   
-  @media only screen and (-webkit-min-device-pixel-ratio: 3.5) {
-
+@media only screen and (max-width: 414px){
 
 
 /*------- HEADER-------*/
   .navbar {
       display: block;
-      
+    
     }
     .nav{
 
