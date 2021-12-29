@@ -160,48 +160,20 @@
   display: inline-block;
 } */
 
-@media only screen and (max-width: 414px){
-
-  .showc{
-    max-width: 380px;
-    /* overflow: hidden; */
-    flex-direction: column;
-    padding: 0;
-
-  }
-  .showc img {
-    width: 90%;
-    height: 50%;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .shDesc{
-    padding: 0;
-    padding-top: 10px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-  }
-  .shDesc h1{
-    text-align: center;
-  }
-  .showcase_btn{
-    width: 50%;
-  }
-  .bttn{
-    display: none;
-  }
-}
 
 @media only screen and (max-width: 1190px){
   .bttn{
     display: none;
   }
     
+}
+
+
+@media only screen and (max-width: 909px){
+ 
+    .showc h1{
+      font-size: 2.5rem;
+    }
 }
 
 
@@ -239,10 +211,39 @@
     
 }
 
+@media only screen and (max-width: 414px){
 
-@media only screen and (max-width: 909px){
- 
-    .showc h1{
-      font-size: 2.5rem;
-    }
+  .showc{
+    max-width: 380px;
+    /* overflow: hidden; */
+    flex-direction: column;
+    padding: 0;
+
+  }
+  .showc img {
+    width: 90%;
+    height: 50%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .shDesc{
+    padding: 0;
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .shDesc h1{
+    text-align: center;
+  }
+  .showcase_btn{
+    width: 50%;
+  }
+  .bttn{
+    display: none;
+  }
 }
