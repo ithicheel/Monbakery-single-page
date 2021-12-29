@@ -18,6 +18,12 @@
 .home_contact_item p {
   font-size: 0.9rem;
   color: rgb(134, 134, 134);
+  text-align: center;
+}
+
+.home_contact_item h4 {
+  
+  text-align: center;
 }
 .home_contact_item i {
   border: 1px solid var(--primary-color);

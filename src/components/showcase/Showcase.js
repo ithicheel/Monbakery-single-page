@@ -9,11 +9,11 @@ import styled from 'styled-components'
  export const ShowcaseDatas = [
     {
         title: "Бяслагтай талх",
-        image: 'https://cdn.discordapp.com/attachments/725396765196550145/925699335050649630/talh.png',
+        image: 'https://cdn.discordapp.com/attachments/725396765196550145/925721652707352626/talh1.png',
     },
     {
         title: "Орео чийз бялуу",
-        image: 'https://cdn.discordapp.com/attachments/725396765196550145/919629584067072010/78963-14_adobespark.png',
+        image: 'https://cdn.discordapp.com/attachments/725396765196550145/925721368253829140/Hnet.com-image.png',
     },
     {
         title: "Багц талх /дунд/",
@@ -65,7 +65,7 @@ if(!Array.isArray(slides) || slides.length <= 0){
                     <div className={index === current ? 'slide active ' : 'slide'} key={index}>
                             {index === current && (<img src ={slide.image} alt='showc'/>)}
                     </div>
-
+                    
                     <div className="shDesc ">
                         
                         <div className={index === current ? 'slide active ' : 'slide' } key={index}>

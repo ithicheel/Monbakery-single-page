@@ -167,9 +167,7 @@
     /* overflow: hidden; */
     flex-direction: column;
     padding: 0;
-    
 
-    
   }
   .showc img {
     width: 90%;
@@ -197,4 +195,54 @@
   .bttn{
     display: none;
   }
+}
+
+@media only screen and (max-width: 1190px){
+  .bttn{
+    display: none;
+  }
+    
+}
+
+
+@media only screen and (max-width: 790px){
+  .showc{
+    flex-direction: column;
+  }
+  .bttn{
+    display: none;
+  }
+  .showc img {
+    width: 50%;
+    height: 40%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .shDesc{
+    padding: 0;
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .shDesc h1{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .showcase_btn{
+    width: 30%;
+  }
+    
+}
+
+
+@media only screen and (max-width: 909px){
+ 
+    .showc h1{
+      font-size: 2.5rem;
+    }
 }
