@@ -1,13 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './sale_style.css';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Sale() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
     return (
-        <div class="sale_p  ">
+        <div  class="sale_p  ">
    
           <div class="space1"></div>
-          
+          <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
             <div class="sl_heading">
               <h2 class="sl_heading_title">Энэ долоо хоногийн хямдрал</h2>
               <div class="sl_heading_separate"></div>
@@ -44,7 +50,7 @@ function Sale() {
 
           <div class="space3"></div>
 
-        
+        </div>
         </div>
 
     )

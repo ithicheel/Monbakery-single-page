@@ -1,12 +1,17 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import "./Home_contact_style.css";
 import {HiPaperAirplane, HiOutlineShoppingCart} from "react-icons/hi"
 import {GiEarthAmerica} from "react-icons/gi"
 import Modal from '../header/modal';
 import Location from '../location/location';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Home_contact_item(props, onClose) {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     const [isOpen, setIsOpen] = useState(false)
 
     function home_contact_icon(name){
@@ -16,7 +21,9 @@ function Home_contact_item(props, onClose) {
     }
     return (
         <>
-        <div className="home_contact_item">
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"
+      className="home_contact_item">
             <i>{home_contact_icon(props.keys)}</i>
             <h4>{props.title}</h4>
             <p>{props.desc}</p>

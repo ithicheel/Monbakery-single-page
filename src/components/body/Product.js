@@ -90,6 +90,26 @@ let data2 = [
         price: 2500,
         img_url:require("../../img/cake/cake_8.jpg"),
     },
+    {
+        title:"Жимс, муссетэй бялуу        ",
+        price: 3500,
+        img_url:require("../../img/cake/cake_9.jpg"),
+    },
+    {
+        title:"Самартай муссе",
+        price: 3500,
+        img_url:require("../../img/cake/cake_10.jpg"),
+    },
+    {
+    title:"Кату бялуу",
+        price: 3500,
+        img_url:require("../../img/cake/cake_12.jpg"),
+    },
+    {
+    title:"Аарцтай муссе    ",
+        price: 3500,
+        img_url:require("../../img/cake/cake_13.jpg"),
+    },
 
 ]
 
@@ -189,16 +209,16 @@ function Product(props) {
 
     
     let datas;
-    if(props.name == "Бялуу"){
+    if(props.name == "Уух зүйлс"){
+        datas = data5;
+    }else if(props.name == "Бялуу"){
         datas = data2;
-    }else if(props.name == "Талх"){
-        datas = data3;
     }else if(props.name == "Бакери"){
         datas = data1;
     }else if(props.name == "Амттан"){
         datas = data4;
     }else {
-        datas = data5;
+        datas = data3;
     }
     function change_dialog_box(e, name){
         setProduct_data(datas.filter(e => e.title.includes(name)))

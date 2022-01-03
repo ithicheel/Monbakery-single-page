@@ -22,6 +22,7 @@
   color: var(--primary-color);
   cursor: pointer;
   transition: 0.5s ease all;
+  
 }
 .menus_btn span {
   cursor: pointer;
@@ -30,4 +31,12 @@
 .menus_btn:hover {
   background: var(--primary-color);
   color: #fff;
+
 }
+
+.menus_btn:hover span{
+  
+  color: #fff;
+  
+}
+

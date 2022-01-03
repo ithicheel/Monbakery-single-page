@@ -9,7 +9,7 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footer_content">
-                <div className="footer_content_item">
+                <div  className="footer_content_item">
                     <h3>Үндсэн цэс</h3>
                     <ul>
                         <li>
